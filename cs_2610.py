@@ -13,5 +13,7 @@ def counter_1(strinu):
 def counter_2(s):
     return len([ch for ch in (set(s.lower())) if s.lower().count(ch) > 1])
 
+#тесты говно
+
 print(counter_1("aaabbbc"))
 print(counter_2("aaabbbc"))
